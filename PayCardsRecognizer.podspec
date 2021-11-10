@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
   spec.platform         = :ios, '8.0'
   spec.ios.deployment_target = '8.0'
   spec.requires_arc     = true
+  spec.source_files = 'PayCardsRecognizer/**/*.{h,mm,m,swift}'
 end
